@@ -32,11 +32,11 @@ __POST__ - Body format (JSON):
 ```
 
 **host:port/users/:email**
-Gets a user\n
+Gets a user
 __GET__
 
 **host:port/token**
-Gets a authentication token\n
+Gets a authentication token
 __POST__ - Body format (JSON):
 ```json
 {
