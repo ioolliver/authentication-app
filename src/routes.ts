@@ -1,5 +1,5 @@
 import { Request, Response, Router } from "express";
-import { AuthenticateUserController } from "./controllers/AuthenticateUserContoller";
+import { AuthenticateUserController } from "./controllers/AuthenticateUserController";
 import { CreateUserController } from "./controllers/CreateUserController";
 import { getUserController } from "./controllers/getUserController";
 import { authenticate } from "./middlewares/authenticate";
