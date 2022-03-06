@@ -17,12 +17,12 @@ Pretty simple authentication API using express, typeorm and JWT.
 Default port is **3030**.
 
 **host:port/**
-You must be authenticated to access.\n
-GET
+You must be authenticated to access
+__GET__
 
 **host:port/users**
-Creates a user\n
-POST - Body format (JSON):
+Creates a user
+__POST__ - Body format (JSON):
 ```json
 {
   "name": "John Doe",
@@ -33,11 +33,11 @@ POST - Body format (JSON):
 
 **host:port/users/:email**
 Gets a user\n
-GET
+__GET__
 
 **host:port/token**
 Gets a authentication token\n
-POST - Body format (JSON):
+__POST__ - Body format (JSON):
 ```json
 {
   "email": "johndoe@email.com",
